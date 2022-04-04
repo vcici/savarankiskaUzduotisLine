@@ -48,7 +48,7 @@ class Line {
         this._p2 = p2;
     }
     toString() {
-        return "p1 = [" + this._p1.pointX + ", " + this._p1.pointY + "], p2 = [" + this._p2.pointX + ", " + this._p2.pointY + "]";
+        return "p1 = " + this._p1.toString() + " p2 = " + this._p2.toString();
     }
     atstumas() {
         return this._p1.distance(this._p2);
